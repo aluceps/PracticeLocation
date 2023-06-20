@@ -1,7 +1,6 @@
 package me.aluceps.practicelocation
 
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import me.aluceps.practicelocation.databinding.ActivityFirstBinding
 
@@ -17,7 +16,7 @@ class FirstActivity : AppCompatActivity() {
 
     private fun setupView() {
         binding.request.setOnClickListener {
-            Toast.makeText(it.context, "click", Toast.LENGTH_SHORT).show()
         }
     }
 }
+
